@@ -12,8 +12,8 @@ export default function Cabecalho(){
   }
  
   return(
-    <div className={`app ${theme}`}>
-      <header className= "app-header">
+    <div>
+      <header className={`app ${theme}`}>
         <h1>Cabeçalho</h1>
         <button onClick={() => trocaTheme()}>Mude o Thema</button>
         <Menu/>
